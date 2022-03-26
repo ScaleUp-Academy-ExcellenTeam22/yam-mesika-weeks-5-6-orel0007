@@ -11,8 +11,8 @@ def print_if_not_vinogret(num):
 def random_date_between_2_dates(date1, date2):
     """
     The function choose random date in the range between the 2 given dates.
-    :param date1: start date - String!!!.
-    :param date2: end date - String!!!.
+    :param date1: start date - the first range date.
+    :param date2: end date - the second range date.
     :return: random date between the 2 dates.
     """
     list_dates = []
@@ -31,4 +31,3 @@ def random_date_between_2_dates(date1, date2):
 
 if __name__ == '__main__':
     print(random_date_between_2_dates("1912-06-23", "1954-06-07"))
-
