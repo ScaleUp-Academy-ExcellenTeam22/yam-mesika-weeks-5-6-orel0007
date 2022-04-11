@@ -10,7 +10,7 @@ def print_if_not_vinogret(num):
 
 def random_date_between_2_dates(date1, date2):
     """
-    The function choose random date in the range between the 2 given dates.
+    The function chooses a random date.
     :param date1: start date - the first range date.
     :param date2: end date - the second range date.
     :return: random date between the 2 dates.
